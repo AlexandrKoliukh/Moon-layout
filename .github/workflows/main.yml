@@ -1,0 +1,17 @@
+name: Code style
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: CSS code style
+      run: npm run csslint
+
+    - name: HTML code style
+      run: npm run htmllint
