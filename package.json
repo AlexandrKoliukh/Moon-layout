@@ -1,7 +1,7 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "@kolalexo/designer-pro",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "description": "",
   "main": "",
   "dependencies": {},
   "devDependencies": {
@@ -15,8 +15,8 @@
   "scripts": {
     "csslint": "./node_modules/.bin/stylelint ./src/styles/*.css",
     "htmllint": "./node_modules/.bin/htmlhint ./src/*.html",
-    "deploy": "./node_modules/.bin/surge ./src/"
+    "deploy": "./node_modules/.bin/surge ./"
   },
-  "author": "Nikita Mikhaylov",
+  "author": "Alexandr Koliukh",
   "license": "ISC"
 }
