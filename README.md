@@ -1,11 +1,10 @@
-![](https://https://github.com/AlexandrKoliukh/layout-designer-project-lvl1/.github/workflows/main.yml/badge.svg)
-
+![](https://github.com/AlexandrKoliukh/layout-designer-project-lvl1/workflows/code-styleI/badge.svg)
 
 # Designer pro
 
 ##Demo
 
-http://www.puzzling-burn.surge.sh
+http://puzzling-burn.surge.sh
 
 ## Setup
 
