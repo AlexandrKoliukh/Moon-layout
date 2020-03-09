@@ -1,1 +1,15 @@
 /** CSS STYLE **/
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navs nav span {
+    margin-left: 20px;
+}
