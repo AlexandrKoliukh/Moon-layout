@@ -15,7 +15,7 @@
   "scripts": {
     "csslint": "./node_modules/.bin/stylelint ./src/styles/*.css",
     "htmllint": "./node_modules/.bin/htmlhint ./src/*.html",
-    "deploy": "./node_modules/.bin/surge ./"
+    "deploy": "./node_modules/.bin/surge --domain puzzling-burn.surge.sh ./src"
   },
   "author": "Alexandr Koliukh",
   "license": "ISC"
