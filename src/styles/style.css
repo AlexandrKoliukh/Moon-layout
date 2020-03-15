@@ -7,11 +7,22 @@ body {
   position: sticky;
 
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
   padding: 10px;
 }
 
 .navs nav span {
   margin-left: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
 }
