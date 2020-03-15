@@ -1,6 +1,8 @@
 /** CSS STYLE **/
 body {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
@@ -21,8 +23,45 @@ body {
   align-items: center;
 }
 
-.logo img{
-  height: 50px;
+header .logo img {
   width: 50px;
   margin-right: 20px;
+}
+
+.main {
+  background: url('../images/banner.png') bottom;
+  background-size: 100% 150%;
+  display: flex;
+  height: 250px;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .logo img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.text-secondary {
+  font-size: 12px;
+}
+
+.main-button {
+  display: flex;
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 2px solid white;
 }
