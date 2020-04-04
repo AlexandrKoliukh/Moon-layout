@@ -11,14 +11,16 @@
 <body>
 <header class="header">
     <div class="logo">
-        <img src="images/logo.svg" alt="Логотип">
+        <div class="logo-title">
+            <img src="images/logo.svg" alt="Логотип" class="image">
+        </div>
         <div class="company-title">Лунное море</div>
     </div>
     <div class="header__navs">
         <nav>
-            <span>Преимущества</span>
-            <span>О ЖК</span>
-            <span>Места для отдыха</span>
+            <span class="header__navs__item">Преимущества</span>
+            <span class="header__navs__item">О ЖК</span>
+            <span class="header__navs__item">Места для отдыха</span>
         </nav>
     </div>
 </header>
@@ -36,7 +38,7 @@
             </div>
         </div>
         <div role="button" class="section-1__button z-index-2" onclick="window.location.href = '#form'">
-<!--            <a href="#form" class="link">Забронировать</a>-->
+            <!--            <a href="#form" class="link">Забронировать</a>-->
             Забронировать
         </div>
     </section>
@@ -173,8 +175,30 @@
         </div>
     </section>
 </main>
-<footer>
-
+<footer class="footer">
+    <div>
+        <div class="logo">
+            <div class="logo-title">
+                <img src="images/logo.svg" alt="Логотип" class="image">
+            </div>
+            <div class="company-title">Лунное море</div>
+        </div>
+        <p>© <time>2032</time> год</p>
+    </div>
+    <div>
+        <h3>Проектная документация</h3>
+        <ul>
+            <li>Скачать</li>
+            <li>Посмортреть на сайте</li>
+        </ul>
+    </div>
+    <div>
+        <h3>О застройщике</h3>
+        <ul>
+            <li>Отзывы</li>
+            <li>Сайт компании</li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>

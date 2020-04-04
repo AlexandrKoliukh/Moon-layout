@@ -14,8 +14,8 @@ body {
   padding: 10px;
 }
 
-.navs nav span {
-  margin-left: 20px;
+.header__navs__item {
+  margin: 0 20px;
 }
 
 .logo {
@@ -23,7 +23,7 @@ body {
   align-items: center;
 }
 
-header .logo img {
+.logo-title {
   width: 50px;
   margin-right: 20px;
 }
@@ -210,4 +210,15 @@ main .logo img {
   text-indent: 10px;
 
   background-color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+
+  color: #f7f7f7;
+
+  background-color: #303846;
 }
