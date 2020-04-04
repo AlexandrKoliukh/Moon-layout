@@ -61,6 +61,11 @@ main .logo img {
   margin-bottom: 20px;
 }
 
+.link {
+  color: white;
+  text-decoration: none;
+}
+
 .section-1__text {
   text-align: center;
 }
@@ -82,6 +87,7 @@ main .logo img {
 
   border: 2px solid white;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .z-index-2 {
@@ -90,6 +96,14 @@ main .logo img {
 
 .max-width-1000 {
   max-width: 1000px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-colored {
+  background-color: #f7f7f7;
 }
 
 .section-2__content-block {
@@ -117,22 +131,16 @@ main .logo img {
 }
 
 .row__left {
+  display: flex;
+  flex-direction: column;
   max-width: 480px;
   margin-right: 40px;
 }
 
 .row__right {
+  display: flex;
+  flex-direction: column;
   max-width: 480px;
-}
-
-.section-3 {
-  padding: 50px 0;
-
-  background-color: #f7f7f7;
-}
-
-.section-4 {
-  padding: 50px;
 }
 
 .section-image {
@@ -143,4 +151,63 @@ main .logo img {
 .image {
   width: 100%;
   height: 100%;
+}
+
+.form__legend {
+  color: #26d2ae;
+
+  font-size: 24px;
+
+  border-color: #26d2ae;
+}
+
+.form__content {
+  width: 500px;
+  padding: 20px 10px;
+}
+
+.form__label {
+  font-size: 18px;
+}
+
+.form__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.form__input {
+  width: 250px;
+
+  padding: 10px;
+
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+
+.form__submit {
+  padding: 10px 40px;
+
+  color: #26d2ae;
+  font-size: 16px;
+
+  background-color: #f7f7f7;
+
+  border: 1px solid #26d2ae;
+  border-radius: 10px;
+}
+
+.form__fieldset {
+  border: 2px solid #26d2ae;
+}
+
+.form__input__type-select {
+  width: 200px;
+  height: 35px;
+  margin-right: 70px;
+
+  text-indent: 10px;
+
+  background-color: white;
 }
