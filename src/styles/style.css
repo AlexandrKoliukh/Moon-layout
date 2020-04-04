@@ -5,6 +5,38 @@ body {
   padding: 0;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.color-black {
+  color: black;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
 .header {
   position: sticky;
 
@@ -18,11 +50,6 @@ body {
   margin: 0 20px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 .logo-title {
   width: 50px;
   margin-right: 20px;
@@ -31,17 +58,16 @@ body {
 .section-1 {
   position: relative;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
   height: 300px;
 
   color: white;
 
   background: url('../images/banner.png') bottom;
   background-size: 100% 140%;
+}
+
+.logo-main {
+  width: 150px;
 }
 
 .section-1::after {
@@ -56,13 +82,7 @@ body {
   content: '';
 }
 
-main .logo img {
-  width: 100px;
-  margin-bottom: 20px;
-}
-
 .link {
-  color: white;
   text-decoration: none;
 }
 
@@ -70,28 +90,17 @@ main .logo img {
   text-align: center;
 }
 
-.bold {
-  font-weight: 600;
-  font-size: 24px;
-  letter-spacing: 1px;
-}
-
 .section-1__text-secondary {
   font-size: 12px;
 }
 
 .section-1__button {
-  display: flex;
   margin-top: 20px;
   padding: 10px 5px;
 
   border: 2px solid white;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.z-index-2 {
-  z-index: 2;
 }
 
 .max-width-1000 {
@@ -112,34 +121,12 @@ main .logo img {
   margin: 0 20px;
 }
 
-.display-flex {
-  display: flex;
-}
-
-.justify-content-center {
-  display: flex;
-  justify-content: center;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
 .row__left {
-  display: flex;
-  flex-direction: column;
   max-width: 480px;
   margin-right: 40px;
 }
 
 .row__right {
-  display: flex;
-  flex-direction: column;
   max-width: 480px;
 }
 
@@ -171,8 +158,6 @@ main .logo img {
 }
 
 .form__row {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin: 20px 0;
 }
@@ -213,8 +198,6 @@ main .logo img {
 }
 
 .footer {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   padding: 50px;
 
