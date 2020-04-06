@@ -8,7 +8,7 @@
     <title>Kolalexo designer pro</title>
 </head>
 <body>
-<header class="header">
+<header class="d-flex align-items-center sticky-top justify-content-space-between z-index-3 header">
     <div class="d-flex align-items-center">
         <div class="logo-title">
             <img src="images/logo.svg" alt="Логотип" class="image">
@@ -80,7 +80,7 @@
     </section>
     <section class="d-flex justify-content-center section section-colored" id="about">
         <div class="d-flex justify-content-center w-100 max-width-1000">
-            <div class="d-flex row">
+            <div class="d-flex row align-items-center">
                 <div class="d-flex col row__left">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>
@@ -101,7 +101,7 @@
     </section>
     <section class="d-flex justify-content-center section" id="relax">
         <div class="d-flex justify-content-center w-100 max-width-1000">
-            <div class="d-flex row">
+            <div class="d-flex row align-items-center">
                 <div class="d-flex col section-image row__left">
                     <img src="./images/moon-2.jpg" alt="Луна" class="image">
                 </div>
@@ -129,7 +129,7 @@
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">Параметры квартиры</legend>
                     <div class="form__content">
-                        <div class="d-flex row form__row">
+                        <div class="d-flex row justify-content-space-between align-items-center form__row">
                             <label for="roomsCount" class="form__label">Количество комнат:</label>
                             <div>
                                 <select id="roomsCount" name="roomsCount" class="form__input form__input__type-select">
@@ -139,7 +139,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="d-flex row form__row">
+                        <div class="d-flex row justify-content-space-between align-items-center form__row">
                             <label for="facing" class="form__label">Отделка:</label>
                             <div>
                                 <select id="facing" name="facing" class="form__input form__input__type-select">
@@ -155,19 +155,19 @@
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">Контактная информация</legend>
                     <div class="form__content">
-                        <div class="d-flex row form__row">
+                        <div class="d-flex row justify-content-space-between align-items-center form__row">
                             <label for="name" class="form__label">Имя:</label>
                             <div>
                                 <input type="text" class="form__input" id="name" name="name">
                             </div>
                         </div>
-                        <div class="d-flex row form__row">
+                        <div class="d-flex row justify-content-space-between align-items-center form__row">
                             <label for="phone" class="form__label">Телефон:</label>
                             <div>
                                 <input type="text" class="form__input" id="phone" name="phone">
                             </div>
                         </div>
-                        <div class="d-flex row form__row">
+                        <div class="d-flex row justify-content-space-between align-items-center form__row">
                             <label for="email" class="form__label">E-mail:</label>
                             <div>
                                 <input type="email" class="form__input" id="email" name="email">
@@ -183,7 +183,7 @@
         </div>
     </section>
 </main>
-<footer class="d-flex row footer">
+<footer class="d-flex row justify-content-space-around footer">
     <div>
         <div class="d-flex align-items-center">
             <div class="logo-title">
