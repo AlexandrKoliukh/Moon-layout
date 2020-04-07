@@ -33,11 +33,11 @@ body {
   width: 100%;
 }
 
-.row {
+.flex-direction-row {
   flex-direction: row;
 }
 
-.col {
+.flex-direction-column {
   flex-direction: column;
 }
 
@@ -63,8 +63,20 @@ body {
   background-color: white;
 }
 
-.header__navs__item {
+.margin-x-20 {
   margin: 0 20px;
+}
+
+.margin-y-20 {
+  margin: 20px 0;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.font-size-16 {
+  font-size: 16px;
 }
 
 .logo-title {
@@ -72,7 +84,7 @@ body {
   margin-right: 20px;
 }
 
-.section-1 {
+.banner {
   position: relative;
 
   height: 300px;
@@ -83,7 +95,7 @@ body {
   background-size: cover;
 }
 
-.section-1::after {
+.banner::after {
   position: absolute;
   z-index: 1;
 
@@ -103,21 +115,32 @@ body {
   text-decoration: none;
 }
 
-.section-1__text {
-  text-align: center;
+.color-white {
+  color: white;
 }
 
-.section-1__text-secondary {
-  font-size: 12px;
+.color-green {
+  color: #26d2ae;
 }
 
-.section-1__button {
-  margin-top: 20px;
-  padding: 10px 5px;
+.border-white {
+  border-color: white;
+}
 
-  border: 2px solid white;
+.border-green {
+  border-color: #26d2ae !important;
+}
+
+.link-button {
+  text-decoration: none;
+
   border-radius: 10px;
   cursor: pointer;
+}
+
+.link-to-form {
+  margin-top: 20px;
+  padding: 10px 5px;
 }
 
 .max-width-1000 {
@@ -132,18 +155,15 @@ body {
   background-color: #f7f7f7;
 }
 
-.section-2__content-block {
+.width-250 {
   width: 250px;
-
-  margin: 0 20px;
 }
 
-.row__left {
-  max-width: 480px;
+.margin-right-40 {
   margin-right: 40px;
 }
 
-.row__right {
+.max-width-480 {
   max-width: 480px;
 }
 
@@ -157,53 +177,44 @@ body {
   height: 100%;
 }
 
-.form__legend {
-  color: #26d2ae;
-
+.font-size-24 {
   font-size: 24px;
-
-  border-color: #26d2ae;
 }
 
-.form__content {
+.form-content {
   width: 500px;
   padding: 0 10px;
 }
 
-.form__label {
-  font-size: 18px;
-}
-
-.form__row {
-  margin: 20px 0;
-}
-
-.form__input {
+.form-input {
   width: 250px;
 
   padding: 10px;
+}
 
-  border: 1px solid silver;
+.border-silver {
+  border-color: silver !important;
+}
+
+.border-radius-10 {
   border-radius: 10px;
 }
 
-.form__submit {
+.form-submit {
   padding: 10px 40px;
 
-  color: #26d2ae;
-  font-size: 16px;
-
   background-color: #f7f7f7;
-
-  border: 1px solid #26d2ae;
-  border-radius: 10px;
 }
 
-.form__fieldset {
-  border: 2px solid #26d2ae;
+.border-solid-2 {
+  border: 2px solid;
 }
 
-.form__input__type-select {
+.border-solid-1 {
+  border: 1px solid;
+}
+
+.form-select {
   width: 200px;
   height: 35px;
   margin-right: 70px;

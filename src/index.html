@@ -13,64 +13,61 @@
         <div class="logo-title">
             <img src="images/logo.svg" alt="Логотип" class="image">
         </div>
-        <div class="company-title">Лунное море</div>
+        <div>Лунное море</div>
     </div>
-    <div class="header__navs">
+    <div>
         <nav>
-            <span class="header__navs__item">
+            <span class="margin-x-20">
                 <a href="#benefits" class="link color-black">Преимущества</a>
             </span>
-            <span class="header__navs__item">
+            <span class="margin-x-20">
                 <a href="#about" class="link color-black">О ЖК</a>
             </span>
-            <span class="header__navs__item">
+            <span class="margin-x-20">
                 <a href="#relax" class="link color-black">Места для отдыха</a>
             </span>
         </nav>
     </div>
 </header>
 <main>
-    <section class="d-flex align-items-center justify-content-center section-1 section col">
+    <section class="d-flex align-items-center justify-content-center banner section flex-direction-column">
         <div class="d-flex align-items-center z-index-2 logo-main">
             <img src="images/logo.svg" class="image" alt="Логотип">
         </div>
-        <div class="section-1__text z-index-2">
-            <h2>
+        <div class="text-align-center z-index-2">
+            <h1>
                 ЖК «Лунное море»
-            </h2>
-            <div class="section-1__text-secondary">
+            </h1>
+            <small>
                 Место, откуда не хочется улетать
-            </div>
+            </small>
         </div>
-        <div role="button" class="d-flex section-1__button z-index-2" onclick="window.location.href = '#form'">
-            <!--            <a href="#form" class="link">Забронировать</a>-->
-            Забронировать
-        </div>
+        <a href="#form" class="d-flex link-button border-solid-1 color-white z-index-2 border-white link-to-form">Забронировать</a>
     </section>
     <section class="d-flex justify-content-center section" id="benefits">
         <div class="d-flex justify-content-center max-width-1000 w-100">
-            <div class="section-2__content-block">
-                <h3>
+            <div class="width-250 margin-x-20">
+                <h2>
                     Уникальный вид
-                </h3>
+                </h2>
                 <p>
                     Вид на космос из вашего окна. Мы построили дома с большими окнами,
                     чтобы вы могли наслаждаться метеоритными потоками.
                 </p>
             </div>
-            <div class="section-2__content-block">
-                <h3>
+            <div class="width-250 margin-x-20">
+                <h2>
                     Инфраструктура
-                </h3>
+                </h2>
                 <p>
                     Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка
                     находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.
                 </p>
             </div>
-            <div class="section-2__content-block">
-                <h3>
+            <div class="width-250 margin-x-20">
+                <h2>
                     Близость к Москве
-                </h3>
+                </h2>
                 <p>
                     При небольшой цене мы располагаемся близко к МКАД.
                     Всего 384 000 километров и вы в самом сердце России.
@@ -80,8 +77,8 @@
     </section>
     <section class="d-flex justify-content-center section section-colored" id="about">
         <div class="d-flex justify-content-center w-100 max-width-1000">
-            <div class="d-flex row align-items-center">
-                <div class="d-flex col row__left">
+            <div class="d-flex flex-direction-row align-items-center">
+                <div class="d-flex flex-direction-column max-width-480 margin-x-20">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>
                         Все чаще жители Москвы предпочитают загородный дом городской квартире,
@@ -93,7 +90,7 @@
                         всего в 380 тысяч километров от Земли.
                     </p>
                 </div>
-                <div class="d-flex col row__right section-image">
+                <div class="d-flex flex-direction-column max-width-480 section-image margin-x-20">
                     <img src="./images/moon-1.jpg" alt="Луна" class="image">
                 </div>
             </div>
@@ -101,11 +98,11 @@
     </section>
     <section class="d-flex justify-content-center section" id="relax">
         <div class="d-flex justify-content-center w-100 max-width-1000">
-            <div class="d-flex row align-items-center">
-                <div class="d-flex col section-image row__left">
+            <div class="d-flex flex-direction-row align-items-center">
+                <div class="d-flex flex-direction-column section-image max-width-480 margin-right-40">
                     <img src="./images/moon-2.jpg" alt="Луна" class="image">
                 </div>
-                <div class="d-flex col row__right">
+                <div class="d-flex flex-direction-column max-width-480">
                     <h2>Места для отдыха</h2>
                     <p>
                         Луна обладает всеми условиями для комфортного отдыха от большого города.
@@ -122,27 +119,27 @@
     </section>
     <section class="d-flex justify-content-center section section-colored" id="form">
         <div class="d-flex justify-content-center w-100 max-width-1000">
-            <form class="form">
+            <form class="form font-size-24">
                 <div class="d-flex justify-content-center">
                     <h2>Оставте заявку сегодня!</h2>
                 </div>
-                <fieldset class="form__fieldset">
-                    <legend class="form__legend">Параметры квартиры</legend>
-                    <div class="form__content">
-                        <div class="d-flex row justify-content-space-between align-items-center form__row">
-                            <label for="roomsCount" class="form__label">Количество комнат:</label>
+                <fieldset class="border-solid-2 border-green">
+                    <legend class="color-green">Параметры квартиры</legend>
+                    <div class="form-content">
+                        <div class="d-flex flex-direction-row justify-content-space-between align-items-center margin-y-20">
+                            <label for="roomsCount" class="font-size-16">Количество комнат:</label>
                             <div>
-                                <select id="roomsCount" name="roomsCount" class="form__input form__input__type-select">
+                                <select id="roomsCount" name="roomsCount" class="form-input border-radius-10 border-solid-1 border-silver form-select">
                                     <option selected>1</option>
                                     <option>2</option>
                                     <option>3</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="d-flex row justify-content-space-between align-items-center form__row">
-                            <label for="facing" class="form__label">Отделка:</label>
+                        <div class="d-flex flex-direction-row justify-content-space-between align-items-center margin-y-20">
+                            <label for="facing" class="font-size-16">Отделка:</label>
                             <div>
-                                <select id="facing" name="facing" class="form__input form__input__type-select">
+                                <select id="facing" name="facing" class="form-input border-radius-10 border-solid-1 border-silver form-select">
                                     <option selected>Без отделки</option>
                                     <option>Отделка в стиле разбитого сердца</option>
                                     <option>Отделка в стиле размышлений о вечности</option>
@@ -152,38 +149,38 @@
                     </div>
                 </fieldset>
                 <br />
-                <fieldset class="form__fieldset">
-                    <legend class="form__legend">Контактная информация</legend>
-                    <div class="form__content">
-                        <div class="d-flex row justify-content-space-between align-items-center form__row">
-                            <label for="name" class="form__label">Имя:</label>
+                <fieldset class="border-solid-2 border-green">
+                    <legend class="color-green">Контактная информация</legend>
+                    <div class="form-content">
+                        <div class="d-flex flex-direction-row justify-content-space-between align-items-center margin-y-20">
+                            <label for="name" class="font-size-16">Имя:</label>
                             <div>
-                                <input type="text" class="form__input" id="name" name="name">
+                                <input type="text" class="form-input border-radius-10 border-solid-1 border-silver" id="name" name="name">
                             </div>
                         </div>
-                        <div class="d-flex row justify-content-space-between align-items-center form__row">
-                            <label for="phone" class="form__label">Телефон:</label>
+                        <div class="d-flex flex-direction-row justify-content-space-between align-items-center margin-y-20">
+                            <label for="phone" class="font-size-16">Телефон:</label>
                             <div>
-                                <input type="text" class="form__input" id="phone" name="phone">
+                                <input type="text" class="form-input border-radius-10 border-solid-1 border-silver" id="phone" name="phone">
                             </div>
                         </div>
-                        <div class="d-flex row justify-content-space-between align-items-center form__row">
-                            <label for="email" class="form__label">E-mail:</label>
+                        <div class="d-flex flex-direction-row justify-content-space-between align-items-center margin-y-20">
+                            <label for="email" class="font-size-16">E-mail:</label>
                             <div>
-                                <input type="email" class="form__input" id="email" name="email">
+                                <input type="email" class="form-input border-solid-1 border-silver border-radius-10" id="email" name="email">
                             </div>
                         </div>
                     </div>
                 </fieldset>
                 <br />
-                <button type="submit" class="form__submit">
-                    Отправить
+                <button type="submit" class="border-solid-1 link-button border-green color-green form-submit">
+                    <span class="font-size-16">Отправить</span>
                 </button>
             </form>
         </div>
     </section>
 </main>
-<footer class="d-flex row justify-content-space-around footer">
+<footer class="d-flex flex-direction-row justify-content-space-around footer">
     <div>
         <div class="d-flex align-items-center">
             <div class="logo-title">
