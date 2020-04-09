@@ -238,11 +238,13 @@ body {
 }
 
 .footer {
-  max-width: 1500px;
-
   padding: 50px;
 
   color: #f7f7f7;
 
   background-color: #303846;
+}
+
+.max-width-1500 {
+  max-width: 1500px;
 }
