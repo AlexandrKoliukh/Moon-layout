@@ -136,16 +136,14 @@ body {
 }
 
 .btn {
+  min-width: 150px;
+  padding: 10px 0;
+
   text-decoration: none;
 
   border: 1px solid;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.link-to-form {
-  margin-top: 20px;
-  padding: 10px 5px;
 }
 
 .max-width-1000 {
@@ -159,8 +157,12 @@ body {
   padding: 50px 0;
 }
 
-.section-colored {
+.bg-grey {
   background-color: #f7f7f7;
+}
+
+.bg-dark {
+  background-color: #303846;
 }
 
 .width-30per {
@@ -208,12 +210,6 @@ body {
   border-radius: 10px;
 }
 
-.form-submit {
-  padding: 10px 40px;
-
-  background-color: #f7f7f7;
-}
-
 .border-solid-2 {
   border: 2px solid;
 }
@@ -230,14 +226,6 @@ body {
   text-indent: 10px;
 
   background-color: white;
-}
-
-.footer {
-  padding: 50px;
-
-  color: #f7f7f7;
-
-  background-color: #303846;
 }
 
 .max-width-1500 {
